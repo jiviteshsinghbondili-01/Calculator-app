@@ -1,7 +1,7 @@
 import { useState } from "react"
 import "./App.css"
 function Calculator(){
-    const [value,setValue]=useState(0);
+    const [value,setValue]=useState("");
     const appendValue=(value)=>{
         setValue(input+value);
     }
